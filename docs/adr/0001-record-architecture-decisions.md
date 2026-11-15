@@ -9,7 +9,7 @@ Barras is built by a small team with AI agents, across two repositories. Without
 
 ## Decision
 
-Record every architecture decision as an ADR in `docs/adr/`, named `NNNN-title.md`, and list it in the index `docs/adr/README.md`. A new or changed decision is a new ADR in the same pull request. Do not delete old ADRs; supersede them with a new one.
+Record every architecture decision as an ADR in `docs/adr/`, named `NNNN-title.md`, and list it in the index `docs/adr/README.md`. A new or changed decision is an ADR, listed in the index.
 
 ## Consequences
 
