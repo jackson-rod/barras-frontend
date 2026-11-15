@@ -1,5 +1,7 @@
 # Module anatomy
 
+Source: [ADR-0002](../adr/0002-frontend-stack-and-feature-anatomy.md). Change the ADR and this file in the same pull request; if they disagree, the ADR wins.
+
 Where this standard and `code-standard.md` disagree on structure or naming, this one wins.
 
 ## Layout

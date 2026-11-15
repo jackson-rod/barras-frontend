@@ -9,6 +9,8 @@ The backend generates `openapi.json` with utoipa and commits it. It is the contr
 
 ## Decision
 
+The contract itself is decided in the backend repository, in [backend ADR-0002](https://github.com/jackson-rod/barras-backend/blob/develop/docs/adr/0002-two-repositories-openapi-contract.md) and, for the response envelope, [backend ADR-0005](https://github.com/jackson-rod/barras-backend/blob/develop/docs/adr/0005-http-contract.md). This ADR records only how the app consumes it.
+
 - Vendor the backend's `openapi.json` at `api/openapi.json`, at a pinned version.
 - Produce the types in `src/generated/` with `bun run api:generate`. Do not edit them by hand.
 - The app never decides entitlements. It reads them from the session.

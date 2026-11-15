@@ -1,5 +1,7 @@
 # Performance
 
+Source: [ADR-0002](../adr/0002-frontend-stack-and-feature-anatomy.md). Change the ADR and this file in the same pull request; if they disagree, the ADR wins.
+
 Performance is the most important quality of Barras. These are the frontend budgets.
 
 | Budget | Target |
